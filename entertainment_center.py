@@ -11,7 +11,7 @@
 import media
 import fresh_tomatoes
 
-# creat movie instances 
+# creat movie instances
 
 toy_story = media.Movie(
     'Toy Story',
@@ -40,12 +40,13 @@ the_dark_knight = media.Movie(
 
 anchorman = media.Movie(
     'Anchorman',
-    'https://upload.wikimedia.org/wikipedia/en/6/64/Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg',
+    'https://upload.wikimedia.org/wikipedia/en/6/64/'
+    'Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg',
     'https://www.youtube.com/watch?v=NJQ4qEWm9lU')
 
 movies = [toy_story, avatar, hot_rod, forrest_gump, the_dark_knight, anchorman]
 
-# This function call uses list of movie instances as input to generate an HTML file
-# and open it in the broswer.
+# This function call uses list of movie instances as input
+# to generate an HTML file and open it in the broswer.
 
 fresh_tomatoes.open_movies_page(movies)

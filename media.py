@@ -8,14 +8,15 @@
 
 import webbrowser
 
+
 class Movie():
     # This class provides a way to store movie related information
-    '''class Movie takes input of title, image url and video url; outputs Movie instance'''
-    
-    def __init__(self,movie_title,movie_poster,movie_trailer):
+    '''class Movie takes input of title, image url and video url;
+    outputs Movie instance'''
+
+    def __init__(self, movie_title, movie_poster, movie_trailer):
         # initialize instance of class Movie
         print('Movie class constructor called')
         self.title = movie_title
         self.poster_image_url = movie_poster
         self.trailer_youtube_url = movie_trailer
-
